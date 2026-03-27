@@ -101,4 +101,4 @@ A predicted group counts as a match **only if the set of filenames exactly match
 
 - [Register](https://bounty.autohdr.com)
 - [Competition Page](https://www.codabench.org/competitions/15267/?secret_key=f8f2b5ab-b63e-4e5a-aec6-8575936dbb56)
-- [Discord](https://discord.gg/RWrAN8Xv)
+- [Discord](https://discord.gg/qEvQrEgXdC)

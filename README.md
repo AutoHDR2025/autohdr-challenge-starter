@@ -80,6 +80,21 @@ A predicted group counts as a match **only if the set of filenames exactly match
 | `cpu-large` | 8 | 16 GB | 60 min |
 | `cpu-xlarge` | 16 | 32 GB | 60 min |
 
+## Training Data
+
+Download training images with answer keys to develop and test your algorithm locally. Each package includes images and a `public_manifest.csv` mapping filenames to groups.
+
+| Package | Images | Size | Download |
+|---|---|---|---|
+| Sample | 500 | ~2 GB | [autohdr_sample_500.zip](https://grouping-dataset-solution.s3.amazonaws.com/downloads/autohdr_sample_500.zip) |
+| Medium | 5,000 | ~21 GB | [autohdr_medium_5000.zip](https://grouping-dataset-solution.s3.amazonaws.com/downloads/autohdr_medium_5000.zip) |
+| Large | 10,000 | ~42 GB | [autohdr_large_10000.zip](https://grouping-dataset-solution.s3.amazonaws.com/downloads/autohdr_large_10000.zip) |
+
+**Want the full dataset?** (276K images, ~1.1 TB):
+```bash
+aws s3 sync s3://grouping-dataset-solution/images/ ./images/ --no-sign-request
+```
+
 ## Files in This Repo
 
 - `solution.py` — Starter template for your algorithm

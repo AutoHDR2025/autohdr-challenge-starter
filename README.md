@@ -2,6 +2,10 @@
 
 **$50,000 in cash prizes** — Build the best image grouping algorithm.
 
+**Videos:**
+- [Challenge Overview & About AutoHDR](https://youtu.be/NSEMhzPd_bw) — what we do and why this matters
+- [The Task Explained](https://youtu.be/zHP4wDuIYPU) — how the challenge works and how to win
+
 ## The Challenge
 
 You receive a folder of real estate photos from photoshoots. Each photo was taken from a specific camera angle, potentially at multiple exposures (HDR brackets). Your job: **figure out which images belong together** (same camera angle).

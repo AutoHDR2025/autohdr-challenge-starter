@@ -111,8 +111,7 @@ aws s3 sync s3://grouping-dataset-solution/images/ ./images/ --no-sign-request
 
 - Images are resized to 1024px max dimension
 - Filenames are randomized UUIDs — no metadata hints there
-- The test set has ~69K images across ~19K groups
-- Most groups are 3 or 5 images (typical HDR brackets)
+- Group sizes vary — some are single images, others are 3, 5, or more brackets. Your algorithm needs to handle all cases
 - Your container has **no internet access** during execution
 - Print progress to stdout — it shows up in the submission logs
 
